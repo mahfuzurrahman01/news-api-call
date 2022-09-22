@@ -1,0 +1,36 @@
+h1{
+    color: white;
+    /* background-color: black; */
+    width: 50%;
+    text-align: center;
+    margin: 3rem auto 1rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-shadow: 5px 8px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    color: maroon;
+    text-shadow: 5px 17px 10px black;
+}
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid maroon;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:500px) {
+    h1{
+        margin: 1rem auto;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    p{
+        width: 90%;
+        font-size: 13px;
+    }
+}

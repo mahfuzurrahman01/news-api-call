@@ -5,7 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background-image: linear-gradient(to right , #e0e3ead4, rgba(22, 22, 22, 0.723)),url(./free-website-background-09.jpg);
+  background-repeat: repeat-y;
+  background-position: center; 
+  background-size: cover;
+  height: 100vh;
+  /* /* background-color: #050d1f; */
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
