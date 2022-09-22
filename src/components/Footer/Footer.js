@@ -19,7 +19,7 @@ const Footer = () => {
             <div>
               
                 <p>Features, specifications, and appearances are subject to change without notice.</p>
-                <p>*Please note that Mahfuzurrahman's farm™ programs do not allow you to copy protected material. You may use this software in copying material in which you own the copyright or have obtained permission to copy from the copyright owner. Browser compatibility:
+                <p className='threat'>*Please note that Mahfuzurrahman's farm™ programs do not allow you to copy protected material. You may use this software in copying material in which you own the copyright or have obtained permission to copy from the copyright owner. Browser compatibility:
                     IE/Firefox/Chrome/Opera/Safari/Netscape</p>
                 <p>About us | Terms & Conditions | Privacy | Cookies Policy | Contact Us | EULA | Uninstall</p>
                 <p className='copyright'>Copyright © 2007-2022 MahfuzurRahman. All Rights Reserved.</p>
