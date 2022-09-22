@@ -1,0 +1,13 @@
+.button{
+    margin: 3rem auto 1rem;
+    background-color: maroon;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 15px black;
+}
+.button:hover{
+    background-color: rgb(162, 7, 7);
+}

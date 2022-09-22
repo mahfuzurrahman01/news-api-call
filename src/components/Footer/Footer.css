@@ -8,7 +8,12 @@
     box-shadow: 5px 15px 20px black;
 
 }
+.news-item a:hover{
+    background-color: rgb(152, 3, 3);
+    transition:all 0.3s ease-in;
+}
 .news-item{
+    margin: 2rem 0 0 4rem;
     text-align: center;
 }
 .footer .icon{
@@ -29,4 +34,17 @@
     border-radius: 50%;
     transition: 0.5s ease;
     border: 3px solid transparent;
+}
+
+.footer p{
+    border: none;
+}
+.footer .copyright{
+    text-align: center;
+    font-size: 14px;
+    color: maroon;
+    margin: 1rem auto;
+}
+hr{
+    border: 1px solid rgb(0, 0, 0);
 }

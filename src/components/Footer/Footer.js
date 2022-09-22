@@ -2,7 +2,8 @@ import React from 'react';
 import "./Footer.css"
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='container footer'>
+              <hr />
             <div className='news-item'>
                 <a href='#'>Entertainment</a>
                 <a href='#'>Sports</a>
@@ -16,11 +17,12 @@ const Footer = () => {
                 <i class="fa-brands fa-linkedin"></i>
             </div>
             <div>
+              
                 <p>Features, specifications, and appearances are subject to change without notice.</p>
-                <p>*Please note that Wondershare™ programs do not allow you to copy protected material. You may use this software in copying material in which you own the copyright or have obtained permission to copy from the copyright owner. Browser compatibility:
-                    IE/Firefox/Chrome/Opera/Safari/Maxthon/Netscape</p>
-                <p>About Wondershare | Terms & Conditions | Privacy | Cookies Policy | Contact Us | EULA | Uninstall</p>
-                <small>Copyright © 2007-2022 Wondershare. All Rights Reserved.</small>
+                <p>*Please note that Mahfuzurrahman's farm™ programs do not allow you to copy protected material. You may use this software in copying material in which you own the copyright or have obtained permission to copy from the copyright owner. Browser compatibility:
+                    IE/Firefox/Chrome/Opera/Safari/Netscape</p>
+                <p>About us | Terms & Conditions | Privacy | Cookies Policy | Contact Us | EULA | Uninstall</p>
+                <p className='copyright'>Copyright © 2007-2022 MahfuzurRahman. All Rights Reserved.</p>
             </div>
         </div>
     );
