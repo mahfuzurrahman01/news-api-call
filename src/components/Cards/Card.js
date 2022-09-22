@@ -7,15 +7,15 @@ const Card = (props) => {
     return (
         <div className='col'>
             <div className='card'>
-                <div class="card-body">
+                <div className='card-body'>
                     <img src={urlToImage ? urlToImage : "https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"} alt='headline' ></img>
-                    <h4 class="card-title">{title}</h4>
+                    <h4 className='cart-title'>{title}</h4>
                     <div className='author-name'>
                         <p className='author'>{author}</p>
                         <p><small>{source.name}</small></p>
                     </div>
                     <p className='publish'>{publishedAt}</p>
-                    <p class="card-text">{newCont}...</p>
+                    <p className='card-text'>{newCont}...</p>
                 </div>
             </div>
         </div>
